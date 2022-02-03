@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.5.xsd">
+
+    <changeSet id="20220102-15" author="dekaizhang">
+        <loadData
+                file="liquibase/data/rr_user.csv"
+                separator=","
+                tableName="user"
+                usePreparedStatements="true">
+        </loadData>
+        <loadData
+                file="liquibase/data/rr_car.csv"
+                separator=","
+                tableName="car"
+                usePreparedStatements="true">
+        </loadData>
+        <loadData
+                file="liquibase/data/rr_driver.csv"
+                separator=","
+                tableName="driver"
+                usePreparedStatements="true">
+        </loadData>
+        <loadData
+                file="liquibase/data/rr_driver_car.csv"
+                separator=","
+                tableName="driver_car"
+                usePreparedStatements="true">
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

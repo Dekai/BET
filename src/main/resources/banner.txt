@@ -1,0 +1,19 @@
+ ${AnsiColor.MAGENTA}________       ______          _____ ${AnsiColor.GREEN}       ________                ________              _____
+ ${AnsiColor.MAGENTA}___  __ \_____ ___  /________ ____(_)${AnsiColor.GREEN}       ___  __ \______________ ______(_)_____ _________  /_
+ ${AnsiColor.MAGENTA}__  / / /_  _ \__  //_/_  __ `/__  / ${AnsiColor.GREEN}       __  /_/ /__  ___/_  __ \_____  / _  _ \_  ___/_  __/
+ ${AnsiColor.MAGENTA}_  /_/ / /  __/_  ,<   / /_/ / _  /  ${AnsiColor.GREEN}      _  ____/ _  /    / /_/ /____  /  /  __// /__  / /_
+ ${AnsiColor.MAGENTA}/_____/  \___/ /_/|_|  \__,_/  /_/   ${AnsiColor.GREEN}       /_/      /_/     \____/ ___  /   \___/ \___/  \__/
+                                                          ${AnsiColor.GREEN}            /___/
+
+
+
+${AnsiColor.MAGENTA}██████╗ ███████╗██╗  ██╗ █████╗ ██╗${AnsiColor.GREEN}    ██████╗ ██████╗  ██████╗      ██╗███████╗ ██████╗████████╗
+${AnsiColor.MAGENTA}██╔══██╗██╔════╝██║ ██╔╝██╔══██╗██║${AnsiColor.GREEN}    ██╔══██╗██╔══██╗██╔═══██╗     ██║██╔════╝██╔════╝╚══██╔══╝
+${AnsiColor.MAGENTA}██║  ██║█████╗  █████╔╝ ███████║██║${AnsiColor.GREEN}    ██████╔╝██████╔╝██║   ██║     ██║█████╗  ██║        ██║
+${AnsiColor.MAGENTA}██║  ██║██╔══╝  ██╔═██╗ ██╔══██║██║${AnsiColor.GREEN}    ██╔═══╝ ██╔══██╗██║   ██║██   ██║██╔══╝  ██║        ██║
+${AnsiColor.MAGENTA}██████╔╝███████╗██║  ██╗██║  ██║██║${AnsiColor.GREEN}    ██║     ██║  ██║╚██████╔╝╚█████╔╝███████╗╚██████╗   ██║
+${AnsiColor.MAGENTA}╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝${AnsiColor.GREEN}    ╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚════╝ ╚══════╝ ╚═════╝   ╚═╝
+
+
+${application.title} ${application.version}
+Powered by Spring Boot ${spring-boot.version}

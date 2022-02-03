@@ -1,0 +1,9 @@
+id,name,email,password,perm,activated
+1,dk,dekai.zhang@yahoo.com,gl,user:add,true
+3,dk,dekaizhang@gmail.com,123,user:add,true
+4,dk,dekai.zhang@yahoo.com,123,user:add,true
+5,dk,dekaizhang@gmail.com,123,user:add,true
+6,DK Zhang,abc@163.com,123456,user:add,true
+7,zdk,dekaizhang@gmail.com,string,user:all,true
+8,Dekai Zhang,dekai.zhang@mastercard.com,$2a$10$CUnTmVKU45yK64dsUk.UbOPddMOpIbC0gTs/8GVjMxlBVUMh5hTBq,user:add,true
+9,Dekai Zhang,dekai.zhang@gmail.com,$2a$10$mj1mv00YXYQheolWvOD02ezDsZPuWpiWT7pRIKoGSFgBfcj2Mp9/i,user:add,true

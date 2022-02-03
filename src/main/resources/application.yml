@@ -1,0 +1,41 @@
+dk:
+  application:
+    name: Dekai Demo Project
+
+spring:
+  web:
+    resources:
+      add-mappings: false
+  http:
+    encoding:
+      force: true
+  mvc:
+    throw-exception-if-no-handler-found: true
+  jpa:
+    show-sql: false
+    properties:
+      hibernate.generate_statistics: false
+      hibernate.format_sql: false
+  task:
+    execution:
+      thread-name-prefix: dekai-jh-task-
+      pool:
+        core-size: 2
+        max-size: 50
+        queue-capacity: 10000
+    scheduling:
+      thread-name-prefix: rr-scheduling-
+      pool:
+        size: 2
+springdoc:
+  api-docs:
+    path: /api-docs
+
+# ===================================================================
+# Application specific properties
+# Add your own application properties here, see the ApplicationProperties class
+# ===================================================================
+
+rrconig:
+  security:
+    content-security-policy: "default-src 'self'; frame-src 'self' data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://storage.googleapis.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:"
