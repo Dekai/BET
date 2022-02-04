@@ -11,8 +11,8 @@
     <groupId>com.dk</groupId>
     <artifactId>AliRR</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>AliSpringBootDemo</name>
-    <description>AliSpringBootDemo</description>
+    <name>BTE</name>
+    <description>Backend template</description>
     <properties>
         <java.version>11</java.version>
         <repackage.classifier/>

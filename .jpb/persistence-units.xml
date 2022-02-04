@@ -4,7 +4,7 @@
     <persistence-units>
       <persistence-unit name="Default">
         <packages>
-          <package value="com.dk.alirr" />
+          <package value="com.dk.rr" />
         </packages>
       </persistence-unit>
     </persistence-units>
